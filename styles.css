@@ -1,0 +1,117 @@
+* {
+  padding:0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+
+nav, footer, header, aside {display: block;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {font-size: inherit;}
+
+input ::-ms-clear {display: none;}
+button {cursor: pointer;}
+button ::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;300&display=swap');
+
+  body {    
+    color: #e0fdf6;
+    background-color: #1d1d1d;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 0 0 0 -10px;
+  }
+
+  .sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: -230px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #title {
+    color: #000;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.9rem;
+    text-align: left;
+    margin: 30px auto 30px 5px;
+    text-shadow: 1px 6px 8px #2515ff, -1px -6px 8px #912bfd;
+    -webkit-text-stroke: 1px #a5a5a4;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .sidebar ul {
+    margin: auto auto auto 5px;
+  }
+
+  nav > ul > li {
+   line-height: 2.7rem;
+  }
+
+  nav a:visited {
+    color: #c3a3ff
+  }
+
+  main header {
+    margin: 50px auto 15px 0;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.9rem;
+    text-shadow: 1px 6px 8px #2515ff, -1px -6px 8px #912bfd;
+    -webkit-text-stroke: 1px #a5a5a4;
+    -webkit-text-fill-color: transparent;    
+  }
+
+  main {
+    display: block;
+    background: #1d1d1d;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px 45px 10px 0;
+    text-align: justify;
+    line-height: 1.7;
+  }
+
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #2f2f2f;
+    color: #a4a4a4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
