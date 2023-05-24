@@ -70,17 +70,19 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
 
   #title {
     color: #000;
+    background-color: #000;
     font-family: 'Mukta', sans-serif;
     font-size: 1.9rem;
     text-align: left;
-    margin: 30px auto 30px 5px;
+    position: fixed;
+    margin: 0 auto 30px 5px;
     text-shadow: 1px 6px 8px #2515ff, -1px -6px 8px #912bfd;
     -webkit-text-stroke: 1px #a5a5a4;
     -webkit-text-fill-color: transparent;
   }
   
   .sidebar ul {
-    margin: auto auto auto 5px;
+    margin: 90px auto auto 5px;
   }
 
   nav > ul > li {
