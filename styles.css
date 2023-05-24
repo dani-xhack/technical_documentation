@@ -39,6 +39,14 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;300&display=swap');
 
+::-webkit-scrollbar {
+  background-color: #a273d5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e0fdf6;
+}
+
   body {    
     color: #e0fdf6;
     background-color: #1d1d1d;
@@ -49,14 +57,15 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
   }
 
   .sidebar {
-    width: 240px;
-    height: 200%;
+    width: 247px;
+    height: 100%;
     background-color: #000;
     position: fixed;
     top: 0;
     left: -230px;
     transition: all 0.3s ease-in-out;
     z-index: 10;
+    overflow-y: auto;
   }
 
   #title {
